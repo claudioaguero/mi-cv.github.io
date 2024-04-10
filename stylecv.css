@@ -1,0 +1,41 @@
+@import url('https://fonts.gstatic.com');
+body{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 2% 6%;
+}
+
+.fila{
+    display:flex;
+    margin-top: 3%;
+    
+}
+.columna{
+    margin: 2% 0%;
+    width: 50%;
+    padding-right: 50px;
+    
+}
+#imagen {
+    border-radius: 8px;
+    width: auto;
+  }
+.boton {
+    width: 115px;
+    height: 30px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: black;
+  }
+  
+  .boton:hover {
+    background-color: black;
+    color: white;
+    zoom: 110%;
+  }
+  /*section{
+    border-bottom: 1px steelblue solid;
+  }
